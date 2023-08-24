@@ -1,0 +1,36 @@
+html{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color:#8866d2 ;
+    font-size: larger;
+    scroll-behavior: smooth;
+}
+
+a:link {
+    color: #e29baa;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration:underline;
+  }
+
+.middle{
+    align-content: center;
+}
+
+.full{
+    min-width:100%;
+}
+
+.small{
+    max-width: 5%;
+}
+
+.center{
+    text-align: center;
+}
+
