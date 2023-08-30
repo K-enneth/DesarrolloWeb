@@ -1,22 +1,53 @@
 html{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Space Grotesk', sans-serif;
     color: white;
     background-color:#8866d2 ;
-    font-size: larger;
+    font-size: 16px;
     scroll-behavior: smooth;
 }
 
-a:link {
-    color: #e29baa;
-    background-color: transparent;
-    text-decoration: underline;
-  }
-  
-  a:visited {
+a {
     color: black;
     background-color: transparent;
-    text-decoration:underline;
+    text-decoration: underline;
+    transition: all 0.3s ease-out;
   }
+  
+  a:hover{
+    color: red;
+    background-color: white;
+    text-decoration: underline;
+  }
+
+  h2{
+    color: greenyellow;
+  }
+
+  img{
+    max-width: 100%;
+  }
+
+  iframe{
+  max-width: 100%;
+  }
+
+table{
+    width: 100%;
+}
+
+.personajes{
+    transition: all .5s ease-in-out;
+}
+
+.personajes:hover{
+    border-radius: 30%;
+  transform: scale(2, 2)
+  
+}
+
+.large-text{
+    font-size: 25px;
+}
 
 .middle{
     align-content: center;
