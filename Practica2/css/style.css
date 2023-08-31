@@ -31,9 +31,9 @@ a {
   max-width: 100%;
   }
 
-table{
+  table{
     width: 100%;
-}
+  }
 
 .personajes{
     transition: all .5s ease-in-out;

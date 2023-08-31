@@ -1,6 +1,24 @@
+
+:root{
+  --color-oscuro: #0a0908;
+  --color-claro: #eae0d5;
+  --color-enlace: #2B6F8E;
+}
+
 html{
     font-size: 20px;
     font-family: 'Phudu', cursive;
+    background-color: var(--color-oscuro);
+    color: var(--color-claro);
+}
+
+a{
+color: var(--color-enlace);
+transition: all 0.3s ease-out;  
+}
+
+a:hover{
+color: var(--color-claro);
 }
 
 img{
@@ -8,32 +26,33 @@ img{
 }
 
 iframe{
-max-width: 100%;
+width: 100%;
 }
 
 table{
   width: 100%;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: 100%;
-  }
+.lineas{
+  border: 3px double var(--color-claro);
+}
 
-  .img-table {
-    width: 200px;
-    display: block;
-  }
+.color-enlace-var{
+ color: var(--color-enlace);
+}
 
-  .img-kenny{
+
+
+.img-kenny{
     display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   }
 
-  .text-center{
+
+.text-center{
     text-align: center;
   }
